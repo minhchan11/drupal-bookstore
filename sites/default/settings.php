@@ -245,14 +245,14 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'bookstore',
       'username' => 'bookstore',
       'password' => 'bookstore',
-      'host' => 'localhost',
+      'host' => '127.0.0.1',
       'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',
